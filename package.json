@@ -1,0 +1,44 @@
+{
+  "name": "example-pawjs-semantic-ui",
+  "version": "1.0.0",
+  "description": "Example on using Semantic-UI with PawJS",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production --config=prod.pawconfig.json build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/example-pawjs-semantic-ui.git"
+  },
+  "author": {
+    "name": "Atyantik Technologies",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "contributors": [
+    {
+      "name": "Tirth Bodawala",
+      "email": "tirthbodawala@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "http://yashthakur.in/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atyantik/example-pawjs-semantic-ui/issues"
+  },
+  "homepage": "https://github.com/Atyantik/example-pawjs-semantic-ui#readme",
+  "dependencies": {
+    "@pawjs/less": "^2.1.1",
+    "@pawjs/pawjs": "^3.0.0-alpha.14",
+    "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^0.87.1"
+  }
+}
